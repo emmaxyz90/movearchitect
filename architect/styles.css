@@ -1,0 +1,738 @@
+*{
+	box-sizing: border-box;/*To ensure contents fits into the page perfectly*/
+	margin: 0;
+	padding: 0;
+}
+
+/*General styling of the html body */
+body{	
+	overflow: auto;
+	font-family: sans-serif;
+}
+
+/*Header Section Styling*/
+#header .container .section{
+	padding-top: 28px;
+	margin-bottom: 80px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+#header .container .section img{
+	display: inline-block;
+}
+
+#header .container .section .nav-link{
+	display: inline-block;
+}
+
+#header .container .section .nav-link li{
+	display: inline-block;
+	list-style: none;
+	text-decoration: none;
+	margin-left: 20px;
+	font-size: 0.8em;
+}
+
+#header .container .section .nav-link li a{
+	text-decoration: none;
+	color:#585858;	
+}
+
+#header .container .section .nav-link li a:hover{
+	padding-bottom: 5px;
+	border-bottom: 1px solid #F2AA4C;
+}
+
+#header .container .section .nav-right{
+	display: inline-block;
+	float:right;
+}
+
+#header .container .section .nav-right img{
+	margin-right: 30px;
+}
+
+#header .container .section .nav-right button{
+	padding: 10px;
+	background: #F2AA4C;
+	border-radius: 4px;
+	color: #fff;
+	outline: none;
+	position: relative;
+	top:-10px;
+	border: 1px solid #F2AA4C;
+}
+
+/*About Section Styling*/
+#about .container{
+	margin: 20px 100px;
+}
+
+#about .container .section .section-head{
+	margin: 20px 0;
+}
+
+#about .container .section .section-head p{
+	font-size: 5.2em;
+	font-weight: 700;
+	font-family: serif;
+	width: 50%;
+	line-height:70px;
+}
+
+#about .container .section .section-head span{
+	color: #F2AA4C;
+}
+
+#about .container .section .section-bottom{
+	margin: 50px 0;
+}
+
+#about .container .section .section-bottom .left{
+	display: inline-block;
+	width: 30%;
+	position: relative;
+	top: -190px;
+	margin-right: 40px;
+}
+
+#about .container .section .section-bottom .left p{
+	line-height: 25px;
+}
+
+#about .container .section .section-bottom .left button{
+	margin-top: 40px;
+	padding: 10px;
+	background-color: #F2AA4C;
+	border-radius: 4px;
+	outline: none;
+	color: #fff;
+	border: 1px solid #F2AA4C;
+}
+
+#about .container .section .section-bottom .right{
+	display: inline-block;
+	width: 40%;	
+	margin-left: 25%;
+}
+
+#about .container .section .section-bottom .right img{
+	width:600px;
+	float: right;
+}
+
+/*Gallery Section Styling*/
+#gallery .container{
+	margin: 20px 100px;
+}
+
+#gallery .container .section{
+	padding: 20px 0px;
+}
+
+#gallery .container .section .head{
+	display: inline-block;
+	width: 80%;
+}
+
+#gallery .container .section p{
+	text-align: center;
+	font-size: 2.3em;
+	font-weight: 700;	
+}
+
+#gallery .container .section .slideBtn{
+	display: inline-block;
+}
+
+#gallery .container .img-section .img-responsive{
+	width: 270px;
+	height: 350px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+/*Features Section Styling*/
+#features .container{
+	margin: 0px 100px;
+	padding: 20px 0;
+}
+
+#features .container .section-head{
+	margin: 20px 0;
+}
+
+#features .container .section-head h3{
+	font-size: 2.3em;
+	font-weight: 700;
+}
+
+#features .container .section-bottom .left{
+	display: inline-block;
+	width: 40%;
+	margin-right: 17%;
+}
+
+#features .container .section-bottom .left img{
+	width: 450px;
+}
+
+#features .container .section-bottom .right{
+	display: inline-block;
+	width: 41%;
+	position: relative;
+	top: -80px;
+}
+
+#features .container .section-bottom .right .feature{
+	width: 400px;
+	margin-bottom: 40px;
+}
+
+#features .container .section-bottom .right .feature .upper{
+	display: inline-block;
+	position: relative;
+	top: -35px;
+	margin-right: 10px;
+}
+
+#features .container .section-bottom .right .feature .second{
+	position: relative;
+	top: -10px;
+}
+
+#features .container .section-bottom .right .feature .lower{
+	display: inline-block;
+	width: 330px;
+}
+
+#features .container .section-bottom .right .feature .lower h3{
+	font-size: 1.1em;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+#features .container .section-bottom .right .feature .lower p{
+	line-height: 24px;
+	justify-content: center;
+}
+
+#features .container .section-bottom .right .submit button{
+	padding: 10px;
+	background-color: #F2AA4C;
+	border-radius: 4px;
+	outline: none;
+	color: #fff;
+	border: 1px solid #F2AA4C;
+	margin-left: 55px;
+}
+
+/*Aside Section Styling*/
+#aside .container{
+	background: linear-gradient(180deg, #F9F9F9 22.12%, rgba(249, 249, 249, 0) 100%);
+}
+
+#aside .container{
+	margin: 20px 0;
+	padding: 60px 100px;	
+}
+
+#aside .container .section-head{
+	width: 25%;
+	margin-bottom: 50px;
+}
+
+#aside .container .section-head p{
+	font-size: 2.0em;
+	font-weight: 700;
+	font-family: serif;
+}
+
+#aside .container .section-bottom{
+	float: right;
+	width: 60%;
+	margin-right: 50px;
+}
+
+#aside .container .section-bottom h3{
+	font-size: 3.0em;
+	display: inline-block;
+	color: #F2AA4C;
+	margin-right: 20px;
+	justify-content: center-left;
+	position: relative;
+	top: -60px;
+}
+
+#aside .container .section-bottom p{
+	display: inline-block;
+	font-weight: 100;
+	font-size: 1.5em;
+	width: 90%;	
+	margin-bottom: 50px;
+}
+
+#aside .container .section-bottom .below{
+	margin-top: 20px;
+	margin-left: 48px;
+}
+
+#aside .container .section-bottom .below h4{
+		display: inline-block;
+}
+
+#aside .container .section-bottom .below span{
+	font-weight: normal;
+}
+
+#aside .container .section-bottom .below .nav{
+	float: right; 
+	display: inline-block;
+	margin-right: 30px;
+}
+
+/*Aside2 Section Styling*/
+#aside2 .container{
+	padding: 0 100px;
+	margin: 200px 0;
+	margin-bottom: 50px;
+}
+
+#aside2 .container .section-left{
+	display: inline;
+	width: 40%;
+	margin-right: 10%;
+}
+
+#aside2 .container .section-left img{
+	width: 446px;
+	height: 550px;
+}
+
+#aside2 .container .section-right{
+	display: inline-block;
+	width: 35%;
+	position: relative;
+	top: -130px;
+}
+
+#aside2 .container .section-right h3{
+	font-size: 2.4em;
+	font-family: New York Extra Large;
+	margin-bottom: 50px;
+}
+
+#aside2 .container .section-right span{
+	color: #F2AA4C;
+}
+
+#aside2 .container .section-right .submit button{
+	padding: 10px;
+	background-color: #F2AA4C;
+	border-radius: 4px;
+	outline: none;
+	color: #fff;
+	border: 1px solid #F2AA4C;
+}
+
+/*Contactus Section Styling*/
+#contactus .container {
+	margin: 0 100px;
+}
+
+#contactus .container .section-left{
+	padding: 20px 0;
+	display: inline-block;
+}
+
+#contactus .container .section-left h2{
+	font-size: 2.0em;
+	font-family: serif;
+	margin-bottom: 30px;
+}
+
+#contactus .container .section-left .section-info{
+	margin-bottom: 20px;
+}
+
+#contactus .container .section-left .section-info h3{
+	font-size: 1em;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+#contactus .container .section-right{
+	display: inline-block;
+	width: 50%;
+	float: right;
+}
+
+#contactus .container .section-right img{
+	width: 80%;	
+}
+
+/*Partners Section Styling*/
+#partner .container {
+	margin: 40px 100px;
+}
+
+#partner .container  h2{
+	font-size: 2.0em;
+	font-family: serif;
+}
+#partner .container .img-section {
+	width: 100%;
+}
+#partner .container .img-section img{
+	margin-right: 5%;
+	position: relative;
+	top: -30px;
+}
+
+#partner .container .img-section .second{
+	position: relative;
+	top: 10px;
+}
+
+/*Footer Styling*/
+footer .container {
+	margin: 30px 100px;
+	margin-bottom: 15px;
+}
+
+footer .container .section-left {
+	display: inline-block;
+}
+
+footer .container .section-left li{
+	display: inline-block;
+	list-style: none;
+	text-decoration: none;
+	margin-right: 20px;
+	font-size: 0.8em;
+}
+
+footer .container .section-left li a{
+	text-decoration: none;
+	color:#585858;	
+}
+
+footer .container .section li a:hover{
+	padding-bottom: 5px;
+	border-bottom: 1px solid #F2AA4C;
+}
+
+footer .container .section-right{
+	display: inline-block;
+	float: right;
+}
+
+/*Responsive Design for Tablets(mobile desktop view)*/
+@media only screen and (min-width: 900px) and (max-width: 1200px){ 
+	#about .container{
+		margin: 20px 50px;	
+	}
+	#about .container .section .section-head p{
+		font-size: 4.2em;
+	}
+	#about .container .section .section-bottom .left{	
+		position: relative;
+		top: -50px;
+		margin-right: 20px;
+	}
+	#about .container .section .section-bottom .right img{
+		width:500px;
+	}
+	
+	#gallery .container .img-section{
+		margin: 0 10%;
+	}
+	
+	#gallery .container .img-section .img-responsive{
+		margin-right: 10px;
+		width: 260px;
+	}
+	#features .container .section-bottom .left img{
+		width: 360px;
+	}
+	
+	#features .container .section-bottom .right{
+		top: 0px;
+	}
+	
+	#aside .container .section-head{
+		width: 250px;
+	}
+	
+	#aside .container .section-bottom{
+		margin-right: 10px;
+	}
+	
+	#aside .container .section-bottom p{
+		width: 80%;
+		font-size: 1.3em;
+	}
+	#aside2 .container .section-left img{
+		width: 45%;
+		height: 40%;
+	}
+	
+	#contactus .container .section-right img{
+		width: 100%;	
+	}	
+}
+
+/*Responsive Design for Mobile Phones*/
+@media only screen and (min-width: 200px) and (max-width: 700px){
+	#header .container .section{
+		padding-top: 20px;
+		margin-bottom: 40px;
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+	#header .container .section img{
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	#header .container .section .nav-link{
+		display: block;
+		margin-top: 10px;
+	}
+	
+	#header .container .section .nav-link li{
+		margin-left: 10px;
+	}
+	
+	#header .container .section .nav-right{
+		display: block;
+		position: relative;
+		top:-50px;
+	}
+	
+	#header .container .section .nav-right img{
+		margin-right: 10px;
+		display: inline-block;
+	}
+	
+	#header .container .section .nav-right button{
+		top:-20px;
+	}
+	
+	#about .container{
+		margin: 10px 10%;
+	}
+	#about .container .section .section-head p{
+		font-size: 2.7em;
+		width: 90%;
+	}
+	#about .container .section .section-bottom .left{
+		display: block;
+		width: 80%;
+		top: 0px;
+		margin-right: 0px;
+	}
+	#about .container .section .section-bottom .right{
+		display: block;
+		width:80%;	
+		margin-left: 0px;
+		margin-top: 30px;
+	}
+
+	#about .container .section .section-bottom .right img{
+		width:100%;
+		float: left;
+		margin-bottom: 50px;
+	}
+	
+	#gallery .container{
+		margin: 10px 10%;
+	}
+	
+	#gallery .container .section p{
+		font-size: 1.5em;
+	}
+	
+	#gallery .container .img-section{
+		margin: 0 10%;
+	}
+	
+	#gallery .container .img-section .img-responsive{
+		width: 250px;
+		height: 250px;
+		margin-right: 0px;
+		margin-bottom: 10px;
+	}
+	
+	#features .container{
+		margin: 0px 10%;
+	}
+	
+	#features .container .section-head h3{
+		font-size: 1.5em;
+	}
+	
+	#features .container .section-bottom .left{
+		display: block;
+		width: 80%;
+		margin: 20px 3%;
+	}
+
+	#features .container .section-bottom .left img{
+		width: 90%;
+	}
+
+	#features .container .section-bottom .right{
+		display: block;
+		width: 100%;
+		top: 0px;
+	}
+
+	#features .container .section-bottom .right .feature{
+		width: 100%;
+		margin: 40px 0;
+	}
+	#features .container .section-bottom .right .feature .lower{
+		width: 80%;
+	}
+	#features .container .section-bottom .right .feature .upper{
+		top: -40px;
+		width: 10%;
+		margin-right: 20px;
+	}
+	#features .container .section-bottom .right .feature .lower h3{
+		font-size: 1em;
+	}
+	#features .container .section-bottom .right .feature .lower p{
+		font-size: 0.9em;
+	}
+	#features .container .section-bottom .right .feature .second{
+		top: -20px;
+	}
+	
+	#aside .container{
+		padding: 60px 10%;
+	}
+	#aside .container .section-head{
+		width: 70%;
+		margin-bottom: 30px;
+	}
+
+	#aside .container .section-head p{
+		font-size: 1.5em;
+	}
+
+	#aside .container .section-bottom{
+		float: left;
+		width: 100%;
+		margin-right: 0px;
+		padding-top:20px;
+	}
+	
+	#aside .container .section-bottom h3{
+		margin-right: 0px;
+		top: -60px;
+	}
+
+	#aside .container .section-bottom p{
+		display: inline-block;
+		font-weight: 100;
+		font-size: 1.1em;
+		width: 90%;	
+		margin-bottom: 50px;
+	}
+
+	#aside .container .section-bottom .below{
+		margin-top: 20px;
+		margin-left: 8%;
+	}
+	
+	#aside2 .container{
+		padding: 0 10%;
+	}
+	#aside2 .container .section-left{
+		display: block;
+		width: 80%;
+		margin: 0 9%;
+	}
+
+	#aside2 .container .section-left img{
+		width: 100%;
+		height: 90%;
+	}
+
+	#aside2 .container .section-right{
+		display:block;
+		width: 80%;
+		top: 0px;
+		margin:0 auto;
+	}
+
+	#aside2 .container .section-right h3{
+		font-size: 1.6em;
+		text-align: center;
+	}
+	
+	#aside2 .container .section-right .submit button{
+		margin: 0 20%;
+	}
+	
+	#contactus .container {
+		margin: 0 10%;
+	}
+	#contactus .container .section-left{
+		padding: 20px 0;
+		display: block;
+	}
+
+	#contactus .container .section-left h2{
+		text-align: center;
+	}
+
+	#contactus .container .section-left .section-info{
+		text-align: center;
+	}
+
+	#contactus .container .section-right{
+		display:block;
+		width: 100%;
+		clear:both;
+	}
+
+	#contactus .container .section-right img{
+		width: 100%;
+	}
+
+	#partner .container {
+		margin: 10px 10%;		
+	}
+
+	#partner .container  h2{
+		font-size: 2.0em;
+		font-family: serif;
+		text-align: center;
+	}
+	
+	#partner .container .img-section {
+		width: 100%;
+		padding-top: 20px;
+	}
+	
+	#partner .container .img-section img{
+		top: -30px;
+		width: 25%;
+	}
+
+	#partner .container .img-section .second{
+		top: 0px;
+	}
+	footer .container {
+		margin: 30px 3%;
+	}
+
+	footer .container .section-left li{
+		margin-right: 8px;
+		font-size: 0.7em;
+	}
+}
